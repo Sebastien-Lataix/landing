@@ -1074,11 +1074,11 @@ _______________________________________________________*/
 
 /* Our Team css strat */
 .team-part {
-	background: url(../images/team-bg.png) no-repeat  #3d1f94;
+	background: url(../images/team-bg.png) no-repeat  #21252e;
 }
 
 .team-box {
-	background: #4a28a9;
+	background: #21252e;
 	padding: 45px 25px;
 	-webkit-border-radius: 5px;
     -moz-border-radius: 5px;
