@@ -82,8 +82,8 @@ $(function() {
     }
 
     function tokan_graph () {
-        var scrollDistance = $(window).scrollTop();
-        var scrollDistance1 = $('#tokensale-part').offset().top - 100;
+        let scrollDistance = $(window).scrollTop();
+        let scrollDistance1 = $('#tokensale-part').offset().top - 100;
 		console.log(scrollDistance+'--'+scrollDistance1)
         if ( scrollDistance >= (scrollDistance1 - 100)) {
             $('.donut').listtopie({

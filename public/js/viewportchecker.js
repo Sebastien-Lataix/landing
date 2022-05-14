@@ -44,7 +44,7 @@
             // Set some vars to check with
             if (!options.scrollHorizontal){
                 viewportStart = Math.max(
-                     // $('html').scrollTop(),
+                     // $('html').scrollTop(d),
                      // $('body').scrollTop(),
                      // $(window).scrollTop()
                  );
