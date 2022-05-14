@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee48ba7b-3db2-43fe-a071-eb425d1b71b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/article/la-gestion-de-la-bankroll-aux-paris-sportifs.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/cryptoz.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/cryptoz.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/viewportchecker.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/viewportchecker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +195,10 @@
       <option name="presentableId" value="Default" />
       <updated>1650807768459</updated>
       <workItem from="1650807769676" duration="6162000" />
-      <workItem from="1650876874557" duration="3144000" />
+      <workItem from="1650876874557" duration="3282000" />
+      <workItem from="1651596916158" duration="659000" />
+      <workItem from="1652016604927" duration="811000" />
+      <workItem from="1652447539676" duration="9682000" />
     </task>
     <task id="LOCAL-00001" summary="[landing] : creation de la page blog et d'une page article">
       <created>1650813045467</created>

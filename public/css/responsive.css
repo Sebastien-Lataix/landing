@@ -1,4 +1,4 @@
-/* 
+/*
  * 	Responsive CSS File
  *	v1.0
  */
@@ -127,7 +127,7 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	
+
 }
 
 @media (max-width: 991px) {
@@ -238,7 +238,7 @@
 	.main-banner, .inner-banner-part {
 	    padding-top: 87px;
 	}
-	
+
 	/* Menu */
 
 	.overlay {
@@ -290,7 +290,7 @@
 	}
 
 	.navbar-collapse > ul {
-		margin: 0; 
+		margin: 0;
 	}
 
 	.navbar-nav > li {
@@ -308,7 +308,7 @@
 	}
 
 	.nav > li:hover > a, .nav > li.active > a, .nav > li > a:focus {
-	    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	    background: rgba(0, 0, 0, 0) none repeat;
 	    color: #9c79ff;
 	}
 
@@ -507,7 +507,7 @@
 	    padding: 30px 0;
 	}
 	/* breadcrumb css end */
-	
+
 	/* Blog detail css strat */
 	.blog-detail-part .detail-title .head-two{font-size: 16px;}
 	.blog-detail-part .detail-title p:nth-of-type(2){margin-top: 20px;}

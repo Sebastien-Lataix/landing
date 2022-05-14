@@ -4,15 +4,15 @@
 @import url("../css/owl.carousel.css");
 @import url("../css/jquery.listtopie.css");
 
-/* 
+/*
 
 * Google Fonts
 
 * BASIC STYLE
-  - General Style    
-  - Headings Style    
-  - Button Style    
-  - Form Style    
+  - General Style
+  - Headings Style
+  - Button Style
+  - Form Style
   - Spacer Style
 
 * HEADER
@@ -90,7 +90,7 @@ body {
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url(../images/Preloader_2.gif) center no-repeat #fff;
+	/*background: url(../images/Preloader_2.gif) center no-repeat #fff;*/
 }
 
 .main {
@@ -183,7 +183,7 @@ ul {
 }
 
 .light-gray-bg {
-    background: #fafafa none repeat scroll 0 0;
+    background: #fafafa none repeat
 }
 
 .middle-800 p {
@@ -255,7 +255,7 @@ h6 {
 	color: #01e8fe;
 	font-size: 20px;
 }
-/* - Button Style  //----------------*/ 
+/* - Button Style  //----------------*/
 
 .btn, button {
 	background-color: transparent;
@@ -350,7 +350,6 @@ h6 {
 
 /* - Form Style */
 select {
-	background: url(../images/select-icon.png) no-repeat scroll right 50% #fff !important;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
@@ -533,7 +532,7 @@ select {
   background-color: rgba(255, 255, 255, 0.9);
   float: left;
   -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
-          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
 }
 .sk-cube-grid .sk-cube1 {
   -webkit-animation-delay: 0.2s;
@@ -569,7 +568,7 @@ select {
             transform: scale3D(1, 1, 1);
   } 35% {
     -webkit-transform: scale3D(0, 0, 1);
-            transform: scale3D(0, 0, 1); 
+            transform: scale3D(0, 0, 1);
   }
 }
 
@@ -580,7 +579,7 @@ select {
   } 35% {
     -webkit-transform: scale3D(0, 0, 1);
             transform: scale3D(0, 0, 1);
-  } 
+  }
 }
 /*End*/
 
@@ -668,7 +667,7 @@ _______________________________________________________*/
 }
 
 .main-banner{
-	background: url(../images/banner-bg.jpg) no-repeat scroll 0 0;
+	background: url(../images/banner-bg.jpg) no-repeat ;
 	position: relative;
 	overflow: hidden;
 }
@@ -679,7 +678,7 @@ _______________________________________________________*/
 }
 
 .inner-banner-part {
-	background: url(../images/inner-banner-bg.jpg) no-repeat scroll 0 0;
+	background: url(../images/inner-banner-bg.jpg) no-repeat ;
 }
 
 .banner-main-img {
@@ -863,7 +862,7 @@ _______________________________________________________*/
 .aboutus-detail {
      display: table;
     height: 100%;
-    padding-right: 60px; 
+    padding-right: 60px;
 }
 
 .aboutus-detail-inner {
@@ -898,7 +897,7 @@ _______________________________________________________*/
 
 /* tokensale-part start */
 .tokensale-part {
-	background: url(../images/token-sale-bg.png) no-repeat scroll center 0 #3d1f94;
+	background: url(../images/token-sale-bg.png) no-repeat  #3d1f94;
 }
 
 .tokensale-part .tokensale-detail ul li {
@@ -964,7 +963,7 @@ _______________________________________________________*/
 
 /* Roadmap-part start */
 .roadmap-part {
-	background: url(../images/roadmap-bg.png) no-repeat scroll center 0 ;
+	background: url(../images/roadmap-bg.png) no-repeat  ;
 }
 
 .main-roadmap {
@@ -972,8 +971,8 @@ _______________________________________________________*/
 }
 
 .h-border {
-	width: 100%; 
-	height: 4px; 
+	width: 100%;
+	height: 4px;
 	background: #1182aa;
 	margin-top: 181px;
 }
@@ -1075,7 +1074,7 @@ _______________________________________________________*/
 
 /* Our Team css strat */
 .team-part {
-	background: url(../images/team-bg.png) no-repeat scroll center center #3d1f94;
+	background: url(../images/team-bg.png) no-repeat  #3d1f94;
 }
 
 .team-box {
@@ -1106,10 +1105,7 @@ _______________________________________________________*/
     overflow: hidden;
 }
 
-.team-box .team-thumb img {
-	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  	filter: grayscale(100%);
-}
+
 
 .team-box:hover .team-thumb img {
 	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
@@ -1230,12 +1226,12 @@ _______________________________________________________*/
 	right: 0;
 	height: 18px;
 	width: 18px;
-	background: url(../images/minus-icon.svg) no-repeat scroll 0 0;
+	background: url(../images/minus-icon.svg) no-repeat ;
 	top: 4px;
 }
 
 .accordion-box h3 a.collapsed:after {
-	background: url(../images/plus-icon.svg) no-repeat scroll 0 0;
+	background: url(../images/plus-icon.svg) no-repeat ;
 }
 
 .accordion-box > .collapse, .accordion-box > .collapsing {
@@ -1250,7 +1246,7 @@ _______________________________________________________*/
 
 /* Contact css start */
 .contact-part {
-	background: url(../images/contact-bg.png) no-repeat scroll 0 0 #3d1f94;
+	background: url(../images/contact-bg.png) no-repeat #3d1f94;
 }
 .contact-box {
 	color: #fff;
@@ -1299,9 +1295,9 @@ _______________________________________________________*/
     -o-box-shadow: none;
 	box-shadow: none;
 }
-.contact-part .form-detail .form-control::placeholder, 
-.contact-part .form-detail .form-control::-moz-placeholder, 
-/* .contact-part .form-detail .form-control:-ms-input-placeholder, 
+.contact-part .form-detail .form-control::placeholder,
+.contact-part .form-detail .form-control::-moz-placeholder,
+/* .contact-part .form-detail .form-control:-ms-input-placeholder,
 .contact-part .form-detail .form-control:-moz-placeholder,  */
 .contact-part .form-detail .form-control::-webkit-input-placeholder{
 	color:#977ae9;
@@ -1332,7 +1328,7 @@ _______________________________________________________*/
 
 .navbar.header.inner{background-color: #fff;padding: 30px 0px;}
 .inner-banner-part .inner-banner-content .head-one{font-size: 45px;font-weight: 700;}
-.blog-part .blog-detail {background-color: #5730c7;padding: 30px;}
+.blog-part .blog-detail {background-color: #292D38;padding: 30px;}
 .blog-part .blog-detail .bloger-date {margin-bottom: 5px;}
 .bloger-date {
 	color: #b39df4;
@@ -1360,11 +1356,11 @@ _______________________________________________________*/
 	padding: 15px 24px;
 	position: relative;
 }
-.blog-part .sidebar .sidebar-default .searching input::placeholder, 
+.blog-part .sidebar .sidebar-default .searching input::placeholder,
 .blog-part .sidebar .sidebar-default .searching input::-moz-placeholder,
-/* .blog-part .sidebar .sidebar-default .searching input:-ms-input-placeholder, 
+/* .blog-part .sidebar .sidebar-default .searching input:-ms-input-placeholder,
 .blog-part .sidebar .sidebar-default .searching input:-moz-placeholder,  */
-.blog-part .sidebar .sidebar-default .searching input::-webkit-input-placeholder { 
+.blog-part .sidebar .sidebar-default .searching input::-webkit-input-placeholder {
 	color: #977ae9;
 	opacity: 1;
 }
@@ -1377,13 +1373,13 @@ _______________________________________________________*/
 .blog-part .sidebar .sidebar-category li a {display: inline-block;width: 100%;}
 .blog-part .sidebar .recent-post .recent{
 	border-bottom: 1px solid #6137d9;
-	display: inline-block; 
+	display: inline-block;
 	margin-bottom: 20px;
 	padding-bottom: 20px;
 }
 .blog-part .sidebar .recent-post .post-title {
-	margin-bottom: 0; 
-	font-size: 18px; 
+	margin-bottom: 0;
+	font-size: 18px;
 	line-height: 25px;
 }
 .blog-part .sidebar .recent-post .recent:last-child {
@@ -1557,9 +1553,9 @@ ul.child-comment {
 	margin-bottom: 30px;
 }
 
-.blog-detail-part .leave-comment-part .form-group .form-control::placeholder, 
-.blog-detail-part .leave-comment-part .form-group .form-control::-moz-placeholder, 
-/* .blog-detail-part .leave-comment-part .form-group .form-control:-ms-input-placeholder, 
+.blog-detail-part .leave-comment-part .form-group .form-control::placeholder,
+.blog-detail-part .leave-comment-part .form-group .form-control::-moz-placeholder,
+/* .blog-detail-part .leave-comment-part .form-group .form-control:-ms-input-placeholder,
 .blog-detail-part .leave-comment-part .form-group .form-control:-moz-placeholder,  */
 .blog-detail-part .leave-comment-part .form-group .form-control::-webkit-input-placeholder {
 	color: #977ae9;
@@ -1619,7 +1615,7 @@ footer .social-media ul {
 }
 
 .footer-bottom {
-	
+
 }
 
 .footer-bottom p {
@@ -1634,15 +1630,15 @@ footer .social-media ul {
 @import url("../css/owl.carousel.css");
 @import url("../css/jquery.listtopie.css");
 
-/* 
+/*
 
 * Google Fonts
 
 * BASIC STYLE
-  - General Style    
-  - Headings Style    
-  - Button Style    
-  - Form Style    
+  - General Style
+  - Headings Style
+  - Button Style
+  - Form Style
   - Spacer Style
 
 * HEADER
@@ -1720,7 +1716,6 @@ body {
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url(../images/Preloader_2.gif) center no-repeat #fff;
 }
 
 .main {
@@ -1813,7 +1808,7 @@ ul {
 }
 
 .light-gray-bg {
-    background: #fafafa none repeat scroll 0 0;
+    background: #fafafa none repeat;
 }
 
 .middle-800 p {
@@ -1885,7 +1880,7 @@ h6 {
 	color: #01e8fe;
 	font-size: 20px;
 }
-/* - Button Style  //----------------*/ 
+/* - Button Style  //----------------*/
 
 .btn, button {
 	background-color: transparent;
@@ -1980,7 +1975,6 @@ h6 {
 
 /* - Form Style */
 select {
-	background: url(../images/select-icon.png) no-repeat scroll right 50% #fff !important;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
@@ -2163,7 +2157,7 @@ select {
   background-color: rgba(255, 255, 255, 0.9);
   float: left;
   -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
-          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
 }
 .sk-cube-grid .sk-cube1 {
   -webkit-animation-delay: 0.2s;
@@ -2199,7 +2193,7 @@ select {
             transform: scale3D(1, 1, 1);
   } 35% {
     -webkit-transform: scale3D(0, 0, 1);
-            transform: scale3D(0, 0, 1); 
+            transform: scale3D(0, 0, 1);
   }
 }
 
@@ -2210,7 +2204,7 @@ select {
   } 35% {
     -webkit-transform: scale3D(0, 0, 1);
             transform: scale3D(0, 0, 1);
-  } 
+  }
 }
 /*End*/
 
@@ -2298,7 +2292,7 @@ _______________________________________________________*/
 }
 
 .main-banner{
-	background: url(../images/banner-bg.jpg) no-repeat scroll 0 0;
+	background: url(../images/banner-bg.jpg) no-repeat ;
 	position: relative;
 	overflow: hidden;
 }
@@ -2309,7 +2303,7 @@ _______________________________________________________*/
 }
 
 .inner-banner-part {
-	background: url(../images/inner-banner-bg.jpg) no-repeat scroll 0 0;
+	background: url(../images/inner-banner-bg.jpg) no-repeat ;
 }
 
 .banner-main-img {
@@ -2493,7 +2487,7 @@ _______________________________________________________*/
 .aboutus-detail {
      display: table;
     height: 100%;
-    padding-right: 60px; 
+    padding-right: 60px;
 }
 
 .aboutus-detail-inner {
@@ -2594,7 +2588,7 @@ _______________________________________________________*/
 
 /* Roadmap-part start */
 .roadmap-part {
-	background: url(../images/roadmap-bg.png) no-repeat scroll center 0 ;
+	background: url(../images/roadmap-bg.png) no-repeat  ;
 }
 
 .main-roadmap {
@@ -2602,8 +2596,8 @@ _______________________________________________________*/
 }
 
 .h-border {
-	width: 100%; 
-	height: 4px; 
+	width: 100%;
+	height: 4px;
 	background: #1182aa;
 	margin-top: 181px;
 }
@@ -2704,9 +2698,6 @@ _______________________________________________________*/
 /* Roadmap-part end */
 
 /* Our Team css strat */
-.team-part {
-	background: url(../images/team-bg.png) no-repeat scroll center center #21252e;
-}
 
 .team-box {
 	background: #292d38;
@@ -2736,10 +2727,6 @@ _______________________________________________________*/
     overflow: hidden;
 }
 
-.team-box .team-thumb img {
-	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  	filter: grayscale(100%);
-}
 
 .team-box:hover .team-thumb img {
 	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
@@ -2859,12 +2846,12 @@ _______________________________________________________*/
 	right: 0;
 	height: 18px;
 	width: 18px;
-	background: url(../images/minus-icon.svg) no-repeat scroll 0 0;
+	background: url(../images/minus-icon.svg) no-repeat ;
 	top: 4px;
 }
 
 .accordion-box h3 a.collapsed:after {
-	background: url(../images/plus-icon.svg) no-repeat scroll 0 0;
+	background: url(../images/plus-icon.svg) no-repeat ;
 }
 
 .accordion-box > .collapse, .accordion-box > .collapsing {
@@ -2879,7 +2866,7 @@ _______________________________________________________*/
 
 /* Contact css start */
 .contact-part {
-	background: url(../images/contact-bg.png) no-repeat scroll 0 0 #21252e;
+	background: url(../images/contact-bg.png) no-repeat  #21252e;
 }
 .contact-box {
 	color: #fff;
@@ -2928,9 +2915,9 @@ _______________________________________________________*/
     -o-box-shadow: none;
 	box-shadow: none;
 }
-.contact-part .form-detail .form-control::placeholder, 
-.contact-part .form-detail .form-control::-moz-placeholder, 
-/* .contact-part .form-detail .form-control:-ms-input-placeholder, 
+.contact-part .form-detail .form-control::placeholder,
+.contact-part .form-detail .form-control::-moz-placeholder,
+/* .contact-part .form-detail .form-control:-ms-input-placeholder,
 .contact-part .form-detail .form-control:-moz-placeholder,  */
 .contact-part .form-detail .form-control::-webkit-input-placeholder{
 	color:#977ae9;
@@ -2961,7 +2948,7 @@ _______________________________________________________*/
 
 .navbar.header.inner{background-color: #fff;padding: 30px 0px;}
 .inner-banner-part .inner-banner-content .head-one{font-size: 45px;font-weight: 700;}
-.blog-part .blog-detail {background-color: #5730c7;padding: 30px;}
+.blog-part .blog-detail {background-color: #292D38;padding: 30px;}
 .blog-part .blog-detail .bloger-date {margin-bottom: 5px;}
 .bloger-date {
 	color: #b39df4;
@@ -2989,11 +2976,11 @@ _______________________________________________________*/
 	padding: 15px 24px;
 	position: relative;
 }
-.blog-part .sidebar .sidebar-default .searching input::placeholder, 
+.blog-part .sidebar .sidebar-default .searching input::placeholder,
 .blog-part .sidebar .sidebar-default .searching input::-moz-placeholder,
-/* .blog-part .sidebar .sidebar-default .searching input:-ms-input-placeholder, 
+/* .blog-part .sidebar .sidebar-default .searching input:-ms-input-placeholder,
 .blog-part .sidebar .sidebar-default .searching input:-moz-placeholder,  */
-.blog-part .sidebar .sidebar-default .searching input::-webkit-input-placeholder { 
+.blog-part .sidebar .sidebar-default .searching input::-webkit-input-placeholder {
 	color: #977ae9;
 	opacity: 1;
 }
@@ -3006,13 +2993,13 @@ _______________________________________________________*/
 .blog-part .sidebar .sidebar-category li a {display: inline-block;width: 100%;}
 .blog-part .sidebar .recent-post .recent{
 	border-bottom: 1px solid #6137d9;
-	display: inline-block; 
+	display: inline-block;
 	margin-bottom: 20px;
 	padding-bottom: 20px;
 }
 .blog-part .sidebar .recent-post .post-title {
-	margin-bottom: 0; 
-	font-size: 18px; 
+	margin-bottom: 0;
+	font-size: 18px;
 	line-height: 25px;
 }
 .blog-part .sidebar .recent-post .recent:last-child {
@@ -3186,9 +3173,9 @@ ul.child-comment {
 	margin-bottom: 30px;
 }
 
-.blog-detail-part .leave-comment-part .form-group .form-control::placeholder, 
-.blog-detail-part .leave-comment-part .form-group .form-control::-moz-placeholder, 
-/* .blog-detail-part .leave-comment-part .form-group .form-control:-ms-input-placeholder, 
+.blog-detail-part .leave-comment-part .form-group .form-control::placeholder,
+.blog-detail-part .leave-comment-part .form-group .form-control::-moz-placeholder,
+/* .blog-detail-part .leave-comment-part .form-group .form-control:-ms-input-placeholder,
 .blog-detail-part .leave-comment-part .form-group .form-control:-moz-placeholder,  */
 .blog-detail-part .leave-comment-part .form-group .form-control::-webkit-input-placeholder {
 	color: #977ae9;
@@ -3248,7 +3235,7 @@ footer .social-media ul {
 }
 
 .footer-bottom {
-	
+
 }
 
 .footer-bottom p {
@@ -3257,4 +3244,28 @@ footer .social-media ul {
 
 .footer-bottom p a {
 	color: #01e8fe;
+}
+footer {
+	background-color: #25272B;
+}
+.sub-title-h1{
+	font-size: 2rem;
+}
+
+.btn-stat-betting{
+	font-size: 1.5rem;
+	padding-bottom: 50px;
+}
+.img-stat-betting{
+	padding: 100px 0;
+}
+#stat-betting{
+	background-color: #21252E;
+}
+.container-btn-about{
+	text-align: center;
+}
+
+.blog-part {
+	background: url(../images/team-bg.png) no-repeat  #21252e;
 }

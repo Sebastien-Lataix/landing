@@ -44,9 +44,9 @@
             // Set some vars to check with
             if (!options.scrollHorizontal){
                 viewportStart = Math.max(
-                     $('html').scrollTop(),
-                     $('body').scrollTop(),
-                     $(window).scrollTop()
+                     // $('html').scrollTop(),
+                     // $('body').scrollTop(),
+                     // $(window).scrollTop()
                  );
                 viewportEnd = (viewportStart + boxSize.height);
             }

@@ -128,24 +128,24 @@ $(function() {
     });
     /* menu overlay end */
 
-    $(window).on('scroll', function(){
-		/*index : header animation*/
-		if ($(this).scrollTop() > 0) {
-            $("header").addClass("header-fixed");
-        } else {
-            $("header").removeClass("header-fixed");
-        }
-		/*end index : header animation*/
-//        tokan_graph();
-    })
+//     $(window).on('scroll', function(){
+// 		/*index : header animation*/
+// 		if ($(this).scrollTop() > 0) {
+//             $("header").addClass("header-fixed");
+//         } else {
+//             $("header").removeClass("header-fixed");
+//         }
+// 		/*end index : header animation*/
+// //        tokan_graph();
+//     })
 
 
-	$( window ).on('resize', function(){
-		//location.reload();
-		$('.donut').listtopie('refresh');
-		$('html, body').animate({scrollTop: '0px'}, 100);
-
-	});
+	// $( window ).on('resize', function(){
+	// 	//location.reload();
+	// 	$('.donut').listtopie('refresh');
+	// 	$('html, body').animate({scrollTop: '0px'}, 100);
+    //
+	// });
 
 
     $(".main-box").addClass(function( index ) {
@@ -174,5 +174,5 @@ $(window).on("load", function() {
   $(".token-graph").addClass("token-graph-right");
 
   w = $( window ).width();
-  
+
 });
